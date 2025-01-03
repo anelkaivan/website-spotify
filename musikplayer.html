@@ -1,0 +1,206 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Musik player
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100 font-roboto">
+    <head>
+        <style>
+            body {
+                background-image: url('latar.jpg'); 
+                background-size: cover; 
+                background-position: center; 
+                background-repeat: no-repeat; 
+                margin: 100; 
+                height: 150vh; 
+            }
+        </style>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            nav {
+                background-color: #474343;
+                overflow: hidden;
+            }
+            nav a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+            nav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            nav a.active {
+                background-color: #0da912;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="Tugas UAS_Anelka Ivan Martin.HTML" class="active">Semua</a>
+            <a href="musikplayer.html">Musik</a>
+            <a href="koleksi.html">Koleksi Musik</a>
+            <a href="premium.html">Premium</a>
+            <a><input class="from-control me-2" type="search" placeholder="Search" aria-label
+        ="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </from>
+              </div>
+            </div>
+          </nav>
+        </nav>
+    </body>
+  <main class="container mx-auto p-4">
+   <section class="mb-8">
+    <h2 class="text-xl font-bold mb-4">
+     Featured Albums
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+     <div class="bg-white p-4 rounded-lg shadow">
+      <img alt="Album cover with abstract art" class="w-full h-48 object-cover rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/qr1XjW4wDb7iH1bCsoIgM0beUevRG4Jn0nLqT3QvpSQ0IMBUA.jpg" width="300"/>
+      <h3 class="text-lg font-bold">
+       Album Title 1
+      </h3>
+      <p class="text-gray-600">
+       Ariana Grande
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow">
+      <img alt="Album cover with a cityscape" class="w-full h-48 object-cover rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/cBln5szdJCoKEZIa5NEVOy2gMj9YzJQEGvoHJpStXVNOCTAF.jpg" width="300"/>
+      <h3 class="text-lg font-bold">
+       Album Title 2
+      </h3>
+      <p class="text-gray-600">
+      Aftershine
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow">
+      <img alt="Album cover with a nature scene" class="w-full h-48 object-cover rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/MDFREcNQx36OMVtEoe7cwMnJ6Y9UQyyv5hkIUqk9jd0gEmAKA.jpg" width="300"/>
+      <h3 class="text-lg font-bold">
+       Album Title 3
+      </h3>
+      <p class="text-gray-600">
+      SZA
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow">
+      <img alt="Album cover with a portrait of the artist" class="w-full h-48 object-cover rounded-lg mb-4" height="300" src="https://storage.googleapis.com/a1aa/image/huoKvmqNSN7MG1FuX6fwQ0vwfL0xqyHXlReguz6DfMSZjwEQB.jpg" width="300"/>
+      <h3 class="text-lg font-bold">
+       Album Title 4
+      </h3>
+      <p class="text-gray-600">
+      Kaleb J
+      </p>
+     </div>
+    </div>
+   </section>
+   <section>
+    <h2 class="text-xl font-bold mb-4">
+     Top Tracks
+    </h2>
+    <div class="bg-white p-4 rounded-lg shadow">
+     <div class="flex items-center mb-4">
+      <img alt="Album cover for track 1" class="w-12 h-12 object-cover rounded-lg mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/bTforVkz6ZWkFSFVH5RaDIwWjW23sedmOyL5tSntYNfHSYCoA.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-bold">
+        Track Title 1
+       </h3>
+       <p class="text-gray-600">
+        SZA - BMF
+       </p>
+      </div>
+      <button class="ml-auto text-blue-600 hover:text-blue-800">
+        <audio controls>
+            <source src="SZA - BMF. mp3.m4a" type="audio/mp3">
+        </audio>
+      </button>
+     </div>
+     <div class="flex items-center mb-4">
+      <img alt="Album cover for track 2" class="w-12 h-12 object-cover rounded-lg mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/qzb9A0ggVToFKdNSYfN4UVh7BANZEwDTbyfDclzfi44fjwEQB.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-bold">
+        Track Title 2
+       </h3>
+       <p class="text-gray-600">
+        Jaz - Kasmaran
+       </p>
+      </div>
+      <button class="ml-auto text-blue-600 hover:text-blue-800">
+        <audio controls>
+            <source src="Jaz - Kasmaran.mp3" type="audio/mp3">
+        </audio>
+      </button>
+     </div>
+     <div class="flex items-center mb-4">
+      <img alt="Album cover for track 3" class="w-12 h-12 object-cover rounded-lg mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/yRL8CPud8zLhDtcjC6X4jB9eCed0njZjyQ6EGYcdjFJ5IMBUA.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-bold">
+        Track Title 3
+       </h3>
+       <p class="text-gray-600">
+        KISINAN 2 - MASDDDHO
+       </p>
+      </div>
+      <button class="ml-auto text-blue-600 hover:text-blue-800">
+        <audio controls>
+            <source src="KISINAN 2 - MASDDDHO.mp3" type="audio/mp3">
+        </audio>
+      </button>
+     </div>
+     <div class="flex items-center mb-4">
+      <img alt="Album cover for track 4" class="w-12 h-12 object-cover rounded-lg mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/xbikxcGb2ZqlEBgkEhfch1dEUUf28ld7S8XowdQUbcb7IMBUA.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-bold">
+        Track Title 4
+       </h3>
+       <p class="text-gray-600">
+        Juicy Luicy - Asing
+       </p>
+      </div>
+      <button class="ml-auto text-blue-600 hover:text-blue-800">
+        <audio controls>
+            <source src="Juicy Luicy - Asing.mp3" type="audio/mp3">
+        </audio>
+      </button>
+     </div>
+     <div class="flex items-center mb-4">
+      <img alt="Album cover for track 5" class="w-12 h-12 object-cover rounded-lg mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/f95FI3DolfgTM01qXY93ecfQHapbVfamlhiSgKPmyEjqHhJgC.jpg" width="50"/>
+      <div>
+       <h3 class="text-lg font-bold">
+        Track Title 5
+       </h3>
+       <p class="text-gray-600">
+        Lisa (BLACKPINK) - MONEY
+       </p>
+      </div>
+      <button class="ml-auto text-blue-600 hover:text-blue-800">
+        <audio controls>
+            <source src="LISA (BLACKPINK) - MONEY,mp3.mp3" type="audio/mp3">
+        </audio>
+      </button>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-white shadow mt-8">
+    <div class="container mx-auto px-4 py-4 text-center text-gray-600">
+        &copy; 2025 Premium Spotify. All rights reserved. Anelka Ivan Martin
+    </div>
+</footer>
+   </div>
+ </body>
+</html>
