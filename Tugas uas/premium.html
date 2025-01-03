@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Payment Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<head>
+    <style>
+        body {
+            background-image: url('latar.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            margin: 100; 
+            height: 150vh; 
+        }
+    </style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #474343;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        nav a.active {
+            background-color: #0da912;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="Tugas UAS_Anelka Ivan Martin.HTML" class="active">Semua</a>
+        <a href="musikplayer.html">Musik</a>
+        <a href="koleksi.html">Koleksi Musik</a>
+        <a href="premium.html">Premium</a>
+        <a><input class="from-control me-2" type="search" placeholder="Search" aria-label
+    ="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            </from>
+          </div>
+        </div>
+      </nav>
+    </nav>
+</body>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">Upgrade to Premium</h1>
+            <p class="text-gray-600 mb-6">Dengarkan tampa batas coba dua bulan premium seharga Rp54.990.</p>
+            
+            <div class="mb-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Paket yang tersedia</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="border rounded-lg p-4 text-center">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Basic</h3>
+                        <p class="text-gray-600 mb-4">Rp10.700/1 minggu</p>
+                        <ul class="text-gray-600 mb-4">
+                            <li>• 1 akun Premium khusus ponsel</li>
+                            <li>• Sekali bayar</li>
+                            <li>• Kulitas audio dasar</li>
+                        </ul>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded">Select</button>
+                    </div>
+                    <div class="border rounded-lg p-4 text-center">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Standard</h3>
+                        <p class="text-gray-600 mb-4">Rp54.900/2 bulan</p>
+                        <ul class="text-gray-600 mb-4">
+                            <li>• 2 aku Premium</li>
+                            <li>• Pembatalan kapan saja</li>
+                            <li>• Berlangganan atau sekali bayar</li>
+                            <li>• Pemutaan musik tampa iklan</li>
+                        </ul>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded">Select</button>
+                    </div>
+                    <div class="border rounded-lg p-4 text-center">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Premium</h3>
+                        <p class="text-gray-600 mb-4">Rp86.990/bulan</p>
+                        <ul class="text-gray-600 mb-4">
+                            <li>• Sampai 4 akun Premium</li>
+                            <li>• Pembatalan kapan saja2</li>
+                            <li>• Kontrol konten bertanda eksplisit</li>
+                            <li>• Berlangganan tanpa batas iklan </li>
+                            <li>• Download kapanpun</li>
+                        </ul>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded">Select</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Payment Information</h2>
+                <form>
+                    <div class="mb-4">
+                        <label for="card-number" class="block text-gray-700">Card Number</label>
+                        <input type="text" id="card-number" class="w-full border rounded px-3 py-2 mt-1" placeholder="1234 5678 9012 3456">
+                    </div>
+                    <div class="mb-4">
+                        <label for="expiry-date" class="block text-gray-700">Expiry Date</label>
+                        <input type="text" id="expiry-date" class="w-full border rounded px-3 py-2 mt-1" placeholder="MM/YY">
+                    </div>
+                    <div class="mb-4">
+                        <label for="cvc" class="block text-gray-700">CVC</label>
+                        <input type="text" id="cvc" class="w-full border rounded px-3 py-2 mt-1" placeholder="CVC">
+                    </div>
+                    <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded">Pay Now</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white shadow mt-8">
+        <div class="container mx-auto px-4 py-4 text-center text-gray-600">
+            &copy; 2025 Premium Spotify. All rights reserved. Anelka Ivan MArtin
+        </div>
+    </footer>
+</body>
+</html>
